@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: smart-expense-tracker-demo
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: FLET_FORCE_WEB_SERVER=true FLET_SERVER_PORT=$PORT python src/main.py
+    healthCheckPath: /

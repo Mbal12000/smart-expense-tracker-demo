@@ -1,0 +1,24 @@
+[project]
+name = "smart-expense-tracker"
+version = "1.0.0"
+description = "Track spending, set monthly budgets and monitor savings — built for students and young professionals."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Mbali Malwane" }]
+dependencies = [
+  "flet>=1.1,<2",
+]
+
+[dependency-groups]
+dev = [
+  "flet[all]>=1.1,<2",
+  "pytest>=8",
+]
+
+[tool.flet]
+org = "mbalimalwane14@gmail.com"
+product = "Smart Expense Tracker"
+copyright = "Copyright (C) 2026 Mbali Malwane"
+
+[tool.flet.app]
+path = "src"
