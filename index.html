@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mbali Malwane, software and web developer based in South Africa.">
+  <meta name="theme-color" content="#16172b">
+  <title>Mbali Malwane | Software &amp; Web Developer</title>
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Mbali Malwane, back to top">
+        <span class="brand-mark" aria-hidden="true">&lt;MM/&gt;</span>
+        <span>Mbali Malwane</span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="hero-status"><span class="status-dot" aria-hidden="true"></span>Software Developer Intern at Global Solutions Group</p>
+          <h1>Mbali Malwane</h1>
+          <p class="hero-role">Software &amp; web developer</p>
+          <p class="hero-text">I build web and mobile applications with C#, .NET, MVC, JavaScript and Flutter. I have a Diploma in IT from the Central University of Technology and I'm based in South Africa.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="mailto:mbalimalwane14@gmail.com">Email me</a>
+            <a class="button button-ghost" href="#experience">View my experience</a>
+          </div>
+        </div>
+
+        <!-- Live editor: JS types the code and builds the preview -->
+        <div class="editor" id="editor" aria-label="Code editor showing an HTML profile being written">
+          <div class="editor-bar">
+            <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+            <span class="editor-tab">profile.html</span>
+            <button class="editor-run" id="editor-run" type="button">Run again</button>
+          </div>
+          <pre class="code" id="code" aria-hidden="true">&lt;article class="profile"&gt;
+  &lt;h2&gt;Mbali Malwane&lt;/h2&gt;
+  &lt;p&gt;Software &amp;amp; web developer&lt;/p&gt;
+  &lt;ul class="stack"&gt;
+    &lt;li&gt;C#&lt;/li&gt; &lt;li&gt;.NET&lt;/li&gt;
+    &lt;li&gt;JavaScript&lt;/li&gt; &lt;li&gt;Flutter&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;a href="#contact"&gt;Let's talk&lt;/a&gt;
+&lt;/article&gt;</pre>
+          <div class="preview">
+            <div class="preview-bar"><span class="preview-url">localhost:5500/profile.html</span></div>
+            <div class="preview-page">
+              <div class="preview-card" data-step="0">
+                <p class="preview-name" data-step="1">Mbali Malwane</p>
+                <p class="preview-role" data-step="2">Software &amp; web developer</p>
+                <ul class="preview-stack">
+                  <li data-step="3">C#</li><li data-step="3">.NET</li><li data-step="4">JavaScript</li><li data-step="4">Flutter</li>
+                </ul>
+                <a class="preview-button" href="#contact" data-step="5" tabindex="-1">Let's talk</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <h2>Technology interests me most when it solves real problems.<a class="anchor" href="#about" aria-label="Link to About">#</a></h2>
+        <div class="about-copy">
+          <p>I hold a Diploma in Information Technology from the Central University of Technology. My studies covered software development with C# and .NET, database design, systems analysis and network architectures.</p>
+          <p>As a Software Developer Intern at Global Solutions Group, I work on real applications: building features, debugging, taking part in code reviews, using Git and connecting apps to databases and backend services.</p>
+          <p>I'm continuing to grow my software and web development skills, and I'm looking for a team where I can learn, contribute and keep improving.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section-tint" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills and technologies<a class="anchor" href="#skills" aria-label="Link to Skills">#</a></h2>
+          <p class="section-intro">What I've studied and used in my training and internship.</p>
+        </div>
+        <dl class="skills">
+          <div class="skill-row"><dt>Programming</dt><dd><code>C#</code><code>Python</code><code>JavaScript</code><code>Dart</code></dd></div>
+          <div class="skill-row"><dt>Web</dt><dd><code>HTML5</code><code>CSS</code><code>Bootstrap</code><code>JavaScript</code></dd></div>
+          <div class="skill-row"><dt>Frameworks</dt><dd><code>.NET</code><code>MVC</code><code>Flutter</code></dd></div>
+          <div class="skill-row"><dt>Backend and data</dt><dd><code>Backendless</code><span>Database design</span><span>Database integration</span></dd></div>
+          <div class="skill-row"><dt>Practices</dt><dd><code>Git</code><span>SDLC</span><span>Debugging</span><span>Code reviews</span></dd></div>
+          <div class="skill-row"><dt>Working with people</dt><dd><span>Problem-solving</span><span>Teamwork</span><span>Communication</span><span>Technical documentation</span></dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2>Experience and education<a class="anchor" href="#experience" aria-label="Link to Experience">#</a></h2>
+        <ol class="timeline">
+          <li class="timeline-item is-current">
+            <p class="timeline-date"><time datetime="2025-09">Sep 2025</time> to present</p>
+            <div>
+              <h3>Software Developer Intern</h3>
+              <p class="timeline-place">Global Solutions Group</p>
+              <ul>
+                <li>Help design, develop and deploy software applications.</li>
+                <li>Write clean, maintainable code with .NET, MVC and Flutter.</li>
+                <li>Debug issues, take part in code reviews and work with Git.</li>
+                <li>Connect applications to databases and backend services.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-date"><time datetime="2024-07">Jul 2024</time> to <time datetime="2025-01">Jan 2025</time></p>
+            <div>
+              <h3>Shop Assistant</h3>
+              <p class="timeline-place">Rage Distribution</p>
+              <p>Built customer communication, time management and teamwork skills in a fast-paced retail environment.</p>
+            </div>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-date"><time datetime="2021-02">Feb 2021</time> to <time datetime="2024-05">May 2024</time></p>
+            <div>
+              <h3>Diploma in Information Technology</h3>
+              <p class="timeline-place">Central University of Technology, Bloemfontein</p>
+              <p>Software development (C# and .NET), database design, systems analysis and network architectures.</p>
+            </div>
+          </li>
+        </ol>
+
+        <h3 class="cert-title">Certifications</h3>
+        <ul class="certs">
+          <li><span>Full Stack Development, FNB App Academy</span><time>2025</time></li>
+          <li><span>SheCodes Basics, Basics Add-on and Plus</span><time>2024</time></li>
+          <li><span>IT Essentials, Cisco Networking Academy</span><time>2022</time></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section section-tint" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects<a class="anchor" href="#projects" aria-label="Link to Projects">#</a></h2>
+          <p class="section-intro">Applications I've designed and developed.</p>
+        </div>
+
+        <article class="project-card">
+          <div class="project-copy">
+            <p class="project-eyebrow">Python application · Personal project</p>
+            <h3>Smart Expense Tracker</h3>
+            <p class="project-summary">A personal finance application built with Python and Flet to help students and young professionals track spending, set monthly budgets and monitor savings.</p>
+
+            <h4>What it does</h4>
+            <ul class="project-features">
+              <li>Tracks income and expenses, with search and filtering.</li>
+              <li>Shows monthly spending summaries, category breakdowns and spending insights.</li>
+              <li>Sets overall and category-specific monthly budgets.</li>
+              <li>Creates savings goals and tracks progress towards targets.</li>
+              <li>Supports currency settings, dark mode and CSV export.</li>
+            </ul>
+
+            <h4>Technologies</h4>
+            <div class="project-tags" aria-label="Technologies used">
+              <code>Python</code><code>Flet</code><code>SQLite</code><code>pytest</code><code>CSV</code>
+            </div>
+            <p class="project-role"><strong>Role:</strong> Independent developer — designed and built the application.</p>
+            <div class="project-actions" aria-label="Project links">
+              <a class="button button-primary" href="https://smart-expense-tracker-demo.onrender.com" target="_blank" rel="noopener noreferrer">Live demo <span aria-hidden="true">↗</span></a>
+              <a class="button button-ghost" href="https://github.com/Mbal12000/smart-expense-tracker-demo" target="_blank" rel="noopener noreferrer">View source code <span aria-hidden="true">↗</span></a>
+            </div>
+            <p class="project-note">Try the application online. The free hosting service may take a little time to wake up after a period of inactivity. This is a demonstration app; please do not enter real financial information.</p>
+          </div>
+
+          <div class="project-gallery" aria-label="Smart Expense Tracker screenshots">
+            <figure class="project-shot project-shot-wide">
+              <img src="expense-tracker-dashboard.png" alt="Smart Expense Tracker dashboard showing income, spending, budget progress, insights and recent transactions" loading="lazy">
+              <figcaption>Dashboard and spending insights</figcaption>
+            </figure>
+            <figure class="project-shot">
+              <img src="expense-tracker-budgets.png" alt="Smart Expense Tracker monthly budgets screen with overall and category budget progress" loading="lazy">
+              <figcaption>Monthly budgets</figcaption>
+            </figure>
+            <figure class="project-shot">
+              <img src="expense-tracker-savings.png" alt="Smart Expense Tracker savings screen showing savings goals and progress" loading="lazy">
+              <figcaption>Savings goals</figcaption>
+            </figure>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container contact-inner">
+        <h2>Have an opportunity or a project in mind?</h2>
+        <p>I'd be happy to connect, hear more and talk about how I can contribute.</p>
+        <div class="contact-actions">
+          <a class="contact-email" href="mailto:mbalimalwane14@gmail.com">mbalimalwane14@gmail.com</a>
+          <button class="button button-ghost" id="copy-email" type="button" data-email="mbalimalwane14@gmail.com">Copy email</button>
+        </div>
+        <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Mbali Malwane</span>
+      <span>Hand-coded in HTML, CSS and JavaScript</span>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
